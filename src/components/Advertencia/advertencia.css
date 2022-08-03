@@ -1,7 +1,6 @@
 .adMensaje {
-    width:auto;
+    width:100%;
     text-align: center;
-    /*font-weight: 500;*/
     color: rgb(246, 247, 248);
     background: rgb(179, 230, 156);
   }
