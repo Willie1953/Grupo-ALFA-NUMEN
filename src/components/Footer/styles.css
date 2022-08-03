@@ -1,7 +1,12 @@
-.container {
-  padding: 30px;
+.container{
+  width: auto;
+  background-color: rgb(122, 195, 238); ;
+}
+.cabecera {
+  width: 1171px;
+  height: 95px;
   text-align: center;
   font-weight: 500;
   color: white;
-  background: black;
+  /*background: rgb(122, 195, 238);*/
 }

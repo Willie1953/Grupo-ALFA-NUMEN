@@ -3,7 +3,12 @@ import './styles.css'
 
 const Footer = () => {
   return (
-    <footer className="container">Prueba de componente footer</footer>
+    <footer className="container">
+      <div className='cabecera'>
+        Prueba de footer
+
+      </div>
+    </footer>
   )
 }
 

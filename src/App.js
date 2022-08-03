@@ -1,10 +1,12 @@
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/index";
+import Advertencia from "./components/Advertencia/advertencia";
 
 function App() {
   return (
-    <div>
+    <>
+      <Advertencia/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
