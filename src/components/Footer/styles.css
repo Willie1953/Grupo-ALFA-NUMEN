@@ -1,12 +1,4 @@
 .container{
-  width: 100%;
-  background-color: rgb(122, 195, 238); ;
-}
-.cabecera {
-  width: 100%;
-  height: 95px;
-  text-align: center;
-  font-weight: 500;
-  color: white;
-  /*background: rgb(122, 195, 238);*/
+  width: auto;
+  background-color: rgb(236, 223, 98); ;
 }
