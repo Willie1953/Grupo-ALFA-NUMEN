@@ -1,10 +1,9 @@
 import React from 'react'
-import './styles.css'
 
 const Footer = () => {
   return (
-    <footer className="container">
-      Prueba con el Pie de Pagina
+    <footer className="bg-cyan-400 text-center">
+      <h5 className='text-white'>Prueba con el Pie de Pagina</h5>
     </footer>
   )
 }

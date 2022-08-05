@@ -1,10 +1,9 @@
 import React from 'react'
-import './advertencia.css'
 
 const Advertencia = () => {
     return (
         <>
-         <div className='adMensaje'>Alerta Covid</div>
+         <div className="text-center bg-red-300 ">Alerta Covid</div>
         </>
     )
 }
