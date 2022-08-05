@@ -1,12 +1,13 @@
-import Reac from "react";
-//import {link} from "react-router-dom"
+import React from "react";
+import logo from "../../img/logo.jpg"
 
 export const Head = () =>{
 
     return(
          
          <div className="flex justify-between items-center h-16 bg-cyan-200 text-black relative shadow-sm" >
-               <h2 className="px-4">LOGO</h2>
+               <img src={logo} className='w-20 h-20' />
+               <h2 className="px-4 sm:px-3.2 py-1.125">LOGO</h2>
                <div className="px-4 cursor-pointer sm:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
                      <path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd" />
