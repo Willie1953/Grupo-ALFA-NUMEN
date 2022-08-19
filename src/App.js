@@ -3,12 +3,11 @@ import Advertencia from "./components/Advertencia/advertencia";
 import { Head } from "./components/Head/head";
 
 function App() {
-
   return (
-<>
-      <Advertencia/>
-      <Head/>
-      <Footer/>
+    <>
+      <Advertencia />
+      <Head />
+      <Footer />
     </>
   );
 }
