@@ -1,0 +1,47 @@
+/* @font-face {
+    font-family: 'SourceSansPro';
+    src: local('SourceSansPro'), url(./../fonts/SourceSansPro-Regular.ttf) format('truetype');
+  }
+   */
+  /* .App-footer{
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    font-family:SourceSansPro-Regular;
+    font-weight:normal;
+    color: whitesmoke
+    
+  }
+  
+  .App-footer:hover{
+    background-color: red;
+    color: black;
+    
+  }
+  
+  .caja1 {
+      background-color: rgb(87, 87, 87);
+      height: 8rem;
+      gap: 2px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      height: fit-content;
+    }
+    .subcaja1 {
+      margin-top: 3px;
+      align-items:flex-start ;
+  
+    }
+    .subcaja2 {
+      margin-top: 3px;
+    }
+    .lista {
+      list-style: none;
+      margin-top: 1px;
+      padding: 0px;
+    }
+    .caja2 {
+      background-color: #060e14;
+      text-align: center;
+    } */
