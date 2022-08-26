@@ -14,7 +14,7 @@ import { FcEngineering } from "react-icons/fc";
 const Footer = () => {
   return (
     <>
-      <div className="text-white">
+      <div className="">
         <div className="subcaja1">
           <u>ATENCION AL CLIENTE</u>
           <b />

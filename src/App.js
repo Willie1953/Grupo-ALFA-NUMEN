@@ -1,9 +1,13 @@
-import Slide from "./components/Carousel/carousel";
-import Footer from "./components/Footer/Footer";
+import Advertencia from "./components/Advertencia";
+import Slide from "./components/Carousel";
+import Footer from "./components/Footer";
+import { Head } from "./components/Head";
 
 function App() {
   return (
     <div>
+      <Advertencia />
+      <Head />
       <Slide />
       <Footer />
     </div>
