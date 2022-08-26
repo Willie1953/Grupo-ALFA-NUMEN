@@ -1,16 +1,12 @@
-import Footer from "./Footer/Footer";
-import Carousel from "./Carousel/Carousel";
-
-
+import Slide from "./components/Carousel/carousel";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <>
-    <header>Header</header>
-    <main>Principal</main>
-    <Carousel/>
-    <Footer/>
-    </>
+    <div>
+      <Slide />
+      <Footer />
+    </div>
   );
 }
 
