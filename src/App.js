@@ -1,9 +1,11 @@
 import Footer from "./components/Footer";
+import Slide from "./components/Carousel/carousel";
 
 function App() {
   return (
     <div>
-      <Footer/>
+      <Footer />
+      <Slide />
     </div>
   );
 }
