@@ -1,14 +1,16 @@
-import Footer from "./components/Footer/index";
-import Advertencia from "./components/Advertencia/advertencia";
-import { Head } from "./components/Head/head";
+import Advertencia from "./components/Advertencia";
+import Slide from "./components/Carousel";
+import Footer from "./components/Footer";
+import { Head } from "./components/Head";
 
 function App() {
   return (
-    <>
-      <Advertencia/>
-      <Head/>
-      <Footer/>
-    </>
+    <div>
+      <Advertencia />
+      <Head />
+      <Slide />
+      <Footer />
+    </div>
   );
 }
 
