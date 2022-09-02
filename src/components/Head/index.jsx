@@ -63,7 +63,7 @@ export const Head = () => {
           </a>
         </div>
 
-        <div className="flex flex-col items-center hidden pt-2 mr-6 sm:block">
+        <div className="flex flex-col items-center pt-2 mr-6 sm:block">
           <button className="pt-2 pl-2">
             <svg
               className="w-6 h-6"
