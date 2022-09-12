@@ -3,7 +3,7 @@ import { useState } from "react";
 import React from "react";
 import logo from "../../img/logo-alfa-blanco.png";
 
-export const Head = () => {
+export const Head = ({value}) => {
   const [menu, setMenu] = useState(false);
   const toggleMenu = () => {
     setMenu(!menu);
@@ -98,7 +98,9 @@ export const Head = () => {
             </svg>
           </button>
 
-          <button className="pt-2 pl-2">
+          
+          <button className="relative pt-0 pl-2 mt-0">
+          <div className="absolute w-4 text-xs rounded-full h-fit bg-cyan-200 bottom-4 left-5 px-auto">{value}</div>
             <svg
               className="w-6 h-6"
               fill="none"
@@ -106,6 +108,7 @@ export const Head = () => {
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
+              
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -113,6 +116,7 @@ export const Head = () => {
                 d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
               />
             </svg>
+            
           </button>
         </div>
 
